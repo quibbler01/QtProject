@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>butterfly.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>open_file.png</file>
+        <file>file_create_149px_1222865_easyicon.net.png</file>
+        <file>copy_148px_1223049_easyicon.net.png</file>
+        <file>cut_coupon_148px_1222587_easyicon.net.png</file>
+        <file>exit_783px_1226698_easyicon.net.png</file>
+        <file>paste_667px_1158069_easyicon.net.png</file>
+        <file>print_277px_1211067_easyicon.net.png</file>
+        <file>print_702px_1196212_easyicon.net.png</file>
+        <file>zoom_in_625px_1231412_easyicon.net.png</file>
+        <file>zoom_out_625px_1231417_easyicon.net.png</file>
+        <file>talking_about_love_512px_1079060_easyicon.net.png</file>
+        <file>arrows_expand_horizontal_265px_1182500_easyicon.net.png</file>
+        <file>Split_Horizontal_222px_1190982_easyicon.net.png</file>
+        <file>90.png</file>
+        <file>180.png</file>
+        <file>270.png</file>
+        <file>redo.png</file>
+        <file>undo.png</file>
+        <file>bold.png</file>
+        <file>italic.png</file>
+        <file>underline_502px_1145627_easyicon.net.png</file>
+        <file>color_palette_1876px_1202956_easyicon.net.png</file>
+    </qresource>
+</RCC>

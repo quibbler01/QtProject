@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>新建文本文档.txt</file>
+        <file>date.txt</file>
+    </qresource>
+</RCC>
