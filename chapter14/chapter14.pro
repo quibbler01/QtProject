@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-04-02T20:22:06
+# Project created by QtCreator 2019-04-04T16:52:33
 #
 #-------------------------------------------------
 
-QT       += core gui network
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = chapter10
+TARGET = chapter14
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -22,36 +22,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-CONFIG += c++11
+TRANSLATIONS = lang_en.ts\
+                lang_zh.ts\
+                lang_la.ts
 
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    networkinformation.cpp \
-    udpserver.cpp \
-    udpclient.cpp \
-    tcpserver.cpp \
-    tcpclient.cpp \
-    tcpclientsocket.cpp \
-    tcpserversocket.cpp \
-    myhttp.cpp
+    switchlanguage.cpp
 
 HEADERS += \
         mainwindow.h \
-    networkinformation.h \
-    udpserver.h \
-    udpclient.h \
-    tcpserver.h \
-    tcpclient.h \
-    tcpclientsocket.h \
-    tcpserversocket.h \
-    myhttp.h
+    switchlanguage.h
 
 FORMS += \
-        mainwindow.ui \
-    myhttp.ui
-
-# Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target
+        mainwindow.ui

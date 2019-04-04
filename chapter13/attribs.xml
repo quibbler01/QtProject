@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding =   "gb2312">
+	<archive>
+		<car id= "1">
+			<arrtib number = "01">排量:2393ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧4</attrib>
+			<attrib number = "04">油耗:7.01(90km/h) 7.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "2">
+			<arrtib number = "01">排量:0ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧4</attrib>
+			<attrib number = "04">油耗:1.01(90km/h) 8.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "3">
+			<arrtib number = "01">排量:123ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧9</attrib>
+			<attrib number = "04">油耗:4.01(90km/h) 4.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "4">
+			<arrtib number = "01">排量:593ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧12</attrib>
+			<attrib number = "04">油耗:2.01(90km/h) 1.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "5">
+			<arrtib number = "01">排量:2333ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧3</attrib>
+			<attrib number = "04">油耗:4.01(90km/h) 2.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "6">
+			<arrtib number = "01">排量:2193ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧14</attrib>
+			<attrib number = "04">油耗:7.01(90km/h) 8.31(120km/h)</attrib>
+			<arrtib number = "05">功率:130/6000</attrib>
+		</car>
+		<car id= "7">
+			<arrtib number = "01">排量:213ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧54</attrib>
+			<attrib number = "04">油耗:6.01(90km/h) 3.31(120km/h)</attrib>
+			<arrtib number = "05">功率:110/6000</attrib>
+		</car>
+		<car id= "8">
+			<arrtib number = "01">排量:2973ml</attrib>
+			<attrib number = "02">价格:43.26万元</attrib>
+			<arrtib number = "03">排放:欧4</attrib>
+			<attrib number = "04">油耗:8.01(90km/h) 8.1(120km/h)</attrib>
+			<arrtib number = "05">功率:140/6000</attrib>
+		</car>
+	</archive>

@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-04-02T20:22:06
+# Project created by QtCreator 2019-04-03T16:19:45
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = chapter10
+TARGET = chapter12
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -27,29 +27,24 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    networkinformation.cpp \
-    udpserver.cpp \
-    udpclient.cpp \
-    tcpserver.cpp \
-    tcpclient.cpp \
-    tcpclientsocket.cpp \
-    tcpserversocket.cpp \
-    myhttp.cpp
+    threaddlg.cpp \
+    workthread.cpp \
+    dialog.cpp \
+    timethread.cpp \
+    timeserver.cpp \
+    timeclient.cpp
 
 HEADERS += \
         mainwindow.h \
-    networkinformation.h \
-    udpserver.h \
-    udpclient.h \
-    tcpserver.h \
-    tcpclient.h \
-    tcpclientsocket.h \
-    tcpserversocket.h \
-    myhttp.h
+    threaddlg.h \
+    workthread.h \
+    dialog.h \
+    timethread.h \
+    timeserver.h \
+    timeclient.h
 
 FORMS += \
-        mainwindow.ui \
-    myhttp.ui
+        mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

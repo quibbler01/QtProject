@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-04-02T20:22:06
+# Project created by QtCreator 2019-04-03T14:20:14
 #
 #-------------------------------------------------
 
-QT       += core gui network
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = chapter10
+TARGET = chapter11
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -27,31 +27,21 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    networkinformation.cpp \
-    udpserver.cpp \
-    udpclient.cpp \
-    tcpserver.cpp \
-    tcpclient.cpp \
-    tcpclientsocket.cpp \
-    tcpserversocket.cpp \
-    myhttp.cpp
+    keyevent.cpp \
+    eventfilter.cpp
 
 HEADERS += \
         mainwindow.h \
-    networkinformation.h \
-    udpserver.h \
-    udpclient.h \
-    tcpserver.h \
-    tcpclient.h \
-    tcpclientsocket.h \
-    tcpserversocket.h \
-    myhttp.h
+    keyevent.h \
+    eventfilter.h
 
 FORMS += \
-        mainwindow.ui \
-    myhttp.ui
+        mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    iamge.qrc

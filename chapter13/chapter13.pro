@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-04-02T20:22:06
+# Project created by QtCreator 2019-04-03T19:51:04
 #
 #-------------------------------------------------
 
-QT       += core gui network
+QT       += core gui sql xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = chapter10
+TARGET = chapter13
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -27,29 +27,17 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    networkinformation.cpp \
-    udpserver.cpp \
-    udpclient.cpp \
-    tcpserver.cpp \
-    tcpclient.cpp \
-    tcpclientsocket.cpp \
-    tcpserversocket.cpp \
-    myhttp.cpp
+    connectdlg.cpp \
+    editdialog.cpp
 
 HEADERS += \
         mainwindow.h \
-    networkinformation.h \
-    udpserver.h \
-    udpclient.h \
-    tcpserver.h \
-    tcpclient.h \
-    tcpclientsocket.h \
-    tcpserversocket.h \
-    myhttp.h
+    connectdlg.h \
+    editdialog.h
 
 FORMS += \
         mainwindow.ui \
-    myhttp.ui
+    connectdlg.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
